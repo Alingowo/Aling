@@ -3,7 +3,6 @@ from discord.ext import commands
 
 intents = discord.Intents.default()
 intents.members = True
-client = discord.Client(intents=intents)
 
 bot = commands.Bot(command_prefix='[',intents= intents )
 
@@ -23,4 +22,4 @@ async def on_member_remove(member):
     channel = bot.get_channel(1060215095893954691)
     await channel.send(f'{member}leave!')
 
-bot.run('MTA1Nzg2ODYzNjExNjc1NDQ3Mw.GoUyhv.TmIbY0NpiD8oRl6d26At7NK8fppfyNSFJQldh0')
+bot.run('MTA1Nzg2ODYzNjExNjc1NDQ3Mw.GnAfvj.s2SNGYSFizTqCGTDF9OfFupgaM_Sbph9SyIJDI')
